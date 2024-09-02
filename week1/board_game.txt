@@ -1,0 +1,8 @@
+board_game
+
+id  name             players  ages  price
+--  ---------------  -------  ----  -----
+1   Balloon PoP      2-4      8+    35
+2   Mysterium        2-7      10+   49.95
+5   Carcassonne      2-5      7+    33.5
+6   Trivial Pursuit  2-36     16+   50
