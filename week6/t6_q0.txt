@@ -1,0 +1,11 @@
+SELECT 
+    g.id AS grape_id, 
+    g.name AS grape_name, 
+    w.id AS wine_id, 
+    w.name AS wine_name, 
+    wn.name AS winery_name
+FROM grape g
+INNER JOIN contains c ON g.id = c.grape_id
+INNER JOIN wine w ON c.wine_id = w.id
+INNER JOIN winery wn ON w.winery_id = wn.id
+WHERE g.color = 'blue';
